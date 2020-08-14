@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b,x ;
+
+ cout <<"Dame 2 numeros y te doy sus operaciones"<<endl;
+   cout <<"Escribe el primer numero"<<endl;
+cin >>a;
+  cout <<"Escribe el segundo numero"<<endl;
+cin >>b;
+x=a+b ;
+cout <<"Esta es la suma capo: "<< x <<endl;
+x=a-b ; 
+cout <<"Esta es la resta capo: "<< x <<endl;
+x=a/b ; 
+cout <<"Esta es la division capo: "<< x <<endl;
+x=a*b ; 
+cout <<"Esta es la multiplicacion capo: "<< x <<endl;
+x=a%b ; 
+cout <<"Este es el modulo capo: "<< x <<endl;
+    return 0;
+}
