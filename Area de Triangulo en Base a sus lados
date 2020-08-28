@@ -1,0 +1,31 @@
+// trianguloenbase.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include<iostream>
+#include "math.h"
+#include "conio.h"
+using namespace std;
+int main()
+{
+	float a,b,c,s,area,area1;
+	cout<< "AREA DEL TRIANGULO EN FUNCION DE SUS LADOS"<<endl;
+	cout<< "Ingrese el primer lado: ";
+	cin>>a;
+	cout<< "Ingrese el segundo lado: ";
+	cin>>b;
+	cout<< "Ingrese el tercer lado: ";
+	cin>>c;
+	s=(a+b+c)/2;
+	area= s*(s-a)(s-b)(s-c);
+	if ((a>=s) || (b>=s) || (c>=s))
+      {
+		  cout<< "ERROR"<<endl;
+		  cout<< "El triangulo ingresado NO existe";
+	}
+	else
+		area1=sqrt(area);
+	cout<<"El area del triangulo es: "<<area1;
+	getch ();
+	return 0;
+}
